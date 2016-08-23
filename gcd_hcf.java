@@ -1,5 +1,5 @@
 import java.util.*;
-public class gcd_two_num {
+public class gcd_hcf {
 
 	public static void main(String[] args) {
 		Scanner scn=new Scanner(System.in);
@@ -16,7 +16,7 @@ public class gcd_two_num {
 			else
 				b=b-a;
 		}
-		System.out.println("The GCD is :"+a);
+		System.out.println("The GCD or HCF is :"+a);
 		}
 	}
 }
